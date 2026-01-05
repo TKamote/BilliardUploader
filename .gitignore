@@ -1,0 +1,25 @@
+# Service Account Key - NEVER COMMIT THIS!
+service-account-key.json
+*.json
+!package.json
+!package-lock.json
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment variables (if you add .env later)
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+node_modules
