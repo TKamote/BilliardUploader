@@ -7,11 +7,17 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "marker-server": "node obs-marker-server.js",
+    "start-all": "./start-all.sh",
+    "extract-clips": "node extract-clips.js",
+    "combine-clips": "node combine-clips.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "@google-cloud/storage": "^7.18.0",
     "chokidar": "^5.0.0",
-    "firebase-admin": "^13.6.0"
+    "firebase-admin": "^13.6.0",
+    "obs-websocket-js": "^5.0.7"
   }
 }
